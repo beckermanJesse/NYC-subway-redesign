@@ -1,0 +1,59 @@
+.wrapper {
+  text-align: center;
+  width: 100%;
+}
+
+body,
+html {
+  /*max-width: 780px;
+  min-width: 28px;*/
+  height: 100%;
+  background-color: #BFBBBF;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.title {
+  padding-bottom: 50px;
+}
+
+.letter-block {
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.letter-block:after {
+  content: 'Post-1970';
+  display: block;
+  color: #666;
+}
+
+.titlechange:after {
+  content: 'Pre-1970';
+  display: block;
+  color: #666;
+}
+
+@media(min-width:600px) {
+  .letter-block {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media(min-width:900px) {
+  .letter-block {
+    width: 33%;
+  }
+}
+
+.footer {
+  padding-top: 50px;
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+h3:hover {
+    background-color: #898989;
+}
